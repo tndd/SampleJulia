@@ -1,4 +1,4 @@
-using SampleJulia
+using SampleJulia: View
 using Test
 
 @testset "View Tests" begin
