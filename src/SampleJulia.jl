@@ -1,5 +1,9 @@
 module SampleJulia
 
-greet() = print("Hello World!")
+include("asset/asset.jl")
+include("view/view.jl")
+
+export Asset
+export View
 
 end # module SampleJulia
