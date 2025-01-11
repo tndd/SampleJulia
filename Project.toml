@@ -1,0 +1,4 @@
+name = "SampleJulia"
+uuid = "d3848c60-7175-4300-b6f9-96a1f8a475c3"
+authors = ["tau_mbp2018 <36781951+tndd@users.noreply.github.com>"]
+version = "0.1.0"
