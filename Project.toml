@@ -4,7 +4,9 @@ authors = ["tau_mbp2018 <36781951+tndd@users.noreply.github.com>"]
 version = "0.1.0"
 
 [deps]
+OhMyREPL = "5fb14364-9ced-5910-84b2-373655c76a03"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
 [compat]
+OhMyREPL = "0.5.28"
 Revise = "3.7.1"
