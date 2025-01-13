@@ -1,2 +1,3 @@
-include("view/view_test.jl")
-include("asset/asset_test.jl")
+using TestItemRunner
+
+@run_package_tests
