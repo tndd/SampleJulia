@@ -1,6 +1,5 @@
-using SampleJulia: View
-using Test
+# using TestItems
 
-@testset "View Tests" begin
-    @test View.show_view("test") == "This is Alpaca1!This is Alpaca2!view:test"
-end
+# @testitem "View Tests" begin
+#     @test View.show_view("test") == "This is Alpaca1!This is Alpaca2!view:test"
+# end

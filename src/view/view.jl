@@ -8,3 +8,11 @@ module View
         return print_alpaca1() * print_alpaca2() * "view:" * text
     end
 end # module
+
+
+module TestView
+    using TestItems
+    @testitem "show_view" begin
+        @test View.show_view("test") == "This is Alpaca1!This is Alpaca2!view:test"
+    end
+end
