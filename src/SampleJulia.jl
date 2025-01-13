@@ -1,5 +1,5 @@
 module SampleJulia
-    include("asset/asset.jl")
+    include("asset/mod.jl")
     include("view/view.jl")
 
     export Asset
